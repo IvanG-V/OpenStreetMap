@@ -1,0 +1,24 @@
+#root,
+.App,
+.container,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+.button_separation {
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+  background-color: #fff;
+}
+.dark-circle {
+  cursor: url(https://w7.pngwing.com/pngs/257/361/png-transparent-computer-icons-circle-tinnitus-lullaby-heaven-knows-circle-white-grey-wikimedia-commons.png),
+    10, 10, auto;
+}
